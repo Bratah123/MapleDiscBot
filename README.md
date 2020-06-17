@@ -7,7 +7,7 @@ and I think its time I released something :P
 
 Make sure to use Visual Studio Code for any debugging or editing.
 
-## How to get a discord bot token? <h2>
+## 1. How to get a discord bot token? <h2>
 1. discordapp.com
   
 2. Developers tab at the top then select developer portal
@@ -29,11 +29,11 @@ Make sure to use Visual Studio Code for any debugging or editing.
 
 ![Token](https://cdn.discordapp.com/attachments/631249406775132182/722902431893028905/e6a8b8f3fae0e3f6650d7e5e6ac148b8.png)
 
-
-## How to set up the bot <h2>
+## 2. How to set up the bot <h2>
 1.The first thing you want to fill out for it to work is config.json in the config Folder
   
 ![config file](https://cdn.discordapp.com/attachments/631249406775132182/722903468884623360/9374ffcdfbe7479e389cbbe079fb83d5.png)
+
 2.YOU MUST FILL OUT ALL ASPECTS FOR IT TO WORK
 
 3.Starting with token, you want to put your bot token you just made into token area
@@ -61,7 +61,7 @@ It should look like this.
 
 ![Console Bot](https://cdn.discordapp.com/attachments/631249406775132182/722905288268578877/e24282ae54c99746c077e6b13d69e049.png)
 
-## I get errors how to fix!1!!?? <h2>
+## 3. I get errors how to fix!1!!?? <h2>
   
 ![mysql error](https://media.discordapp.net/attachments/696165783272685568/722896954270417239/unknown.png)
 
@@ -71,3 +71,16 @@ Make sure to type "npm install mysql" in terminal of visual studio code.
 ![badAPI error](https://media.discordapp.net/attachments/696165783272685568/722899994956529715/unknown.png?width=1061&height=154)
 
 Make sure to fill out the serverMascot section of config.json
+
+
+!givedp !character doesn't work!
+![dp](https://media.discordapp.net/attachments/631249406775132182/722919637783674990/d4ac0dbac50cf15a3ed1a29c298362e3.png)
+1. Open the files in commands folder, and read the comments
+
+2. You want account[0].dpoint to match what your column name is. I.E. (account[0].dpoints, account[0].dpoints, account[0].dpoints)
+
+![givedp](https://cdn.discordapp.com/attachments/631249406775132182/722920371485147186/e5ddd7403d0bf5463b834a6ee725f084.png)
+
+3. For the !givedp command similarly you want to change the dpoint column accordingly
+4. in the updateDp Variable change SET "dpoints" to whatever your donation points is called
+5. do the same for realcash. change it to rows[0].dpoints or whatever your column name is.
