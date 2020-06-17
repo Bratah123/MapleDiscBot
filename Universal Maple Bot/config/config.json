@@ -1,0 +1,16 @@
+{
+  "token": "INSERT BOT TOKEN HERE",
+
+  "addRole": false,
+  "roleToAdd": "Role ID",
+
+  "serverName": "SERVERNAME",
+  "serverWebsite": "http://www.WebsiteURL.com",
+  "serverMascot": "URL of your server's main picture/artwork",
+  "serverColor": "#ADD8E6",
+
+  "databaseName": "insert schema name",
+  "databasePass": "",
+  "databaseUser": "root",
+  "databaseHost": "localhost"
+}
