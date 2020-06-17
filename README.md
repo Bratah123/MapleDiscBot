@@ -30,31 +30,31 @@ Make sure to use Visual Studio Code for any debugging or editing.
 ![Token](https://cdn.discordapp.com/attachments/631249406775132182/722902431893028905/e6a8b8f3fae0e3f6650d7e5e6ac148b8.png)
 
 ## 2. How to set up the bot <h2>
-1.The first thing you want to fill out for it to work is config.json in the config Folder
+1. The first thing you want to fill out for it to work is config.json in the config Folder
   
 ![config file](https://cdn.discordapp.com/attachments/631249406775132182/722903468884623360/9374ffcdfbe7479e389cbbe079fb83d5.png)
 
-2.YOU MUST FILL OUT ALL ASPECTS FOR IT TO WORK
+2. YOU MUST FILL OUT ALL ASPECTS FOR IT TO WORK
 
-3.Starting with token, you want to put your bot token you just made into token area
+3. Starting with token, you want to put your bot token you just made into token area
 
-4.addRole: addRole is defaulted to false, if you put it to true make sure to put the role ID you want players who joins ur discord server to get.
+4. addRole: addRole is defaulted to false, if you put it to true make sure to put the role ID you want players who joins ur discord server to get.
 
-5.serverName: just put ur server name I.E.(whateverMS, nottakenMS)
+5. serverName: just put ur server name I.E.(whateverMS, nottakenMS)
 
-6.serverWebsite: insert your website URL.
+6. serverWebsite: insert your website URL.
 
-7.serverMascot : URL of a picture, you kinda need to fill this one out otherwise you will get errors
+7. serverMascot : URL of a picture, you kinda need to fill this one out otherwise you will get errors
 
-7.5:serverColor : the hexcode to a color that matches your server artwork.
+7.5: serverColor : the hexcode to a color that matches your server artwork.
 
-8.databaseName : your database name.
+8. databaseName : your database name.
 
-9.databasePass : Password of your database I defaulted it to nothing, but that is where you wanna put your SQL password.
+9. databasePass : Password of your database I defaulted it to nothing, but that is where you wanna put your SQL password.
 
-10.databaseUser: defaulted to root, change if otherwise.
+10. databaseUser: defaulted to root, change if otherwise.
 
-11.databaseHost : again defaulted to localhost.
+11. databaseHost : again defaulted to localhost.
 
 FINISH: If you matched all criterias(you probably won't), run the bot with start.bat and boom you should have a working bot (it will restart the bot if it crashes).
 It should look like this.
@@ -74,13 +74,15 @@ Make sure to fill out the serverMascot section of config.json
 
 
 !givedp !character doesn't work!
-![dp](https://media.discordapp.net/attachments/631249406775132182/722919637783674990/d4ac0dbac50cf15a3ed1a29c298362e3.png)
+
 1. Open the files in commands folder, and read the comments
 
 2. You want account[0].dpoint to match what your column name is. I.E. (account[0].dpoints, account[0].dpoints, account[0].dpoints)
 
-![givedp](https://cdn.discordapp.com/attachments/631249406775132182/722920371485147186/e5ddd7403d0bf5463b834a6ee725f084.png)
+![dp](https://media.discordapp.net/attachments/631249406775132182/722919637783674990/d4ac0dbac50cf15a3ed1a29c298362e3.png)
 
-3. For the !givedp command similarly you want to change the dpoint column accordingly
-4. in the updateDp Variable change SET "dpoints" to whatever your donation points is called
-5. do the same for realcash. change it to rows[0].dpoints or whatever your column name is.
+For the !givedp command similarly you want to change the dpoint column accordingly
+1. in the updateDp Variable change SET "dpoints" to whatever your donation points is called
+2. do the same for realcash. change it to rows[0].dpoints or whatever your column name is.
+
+![givedp](https://cdn.discordapp.com/attachments/631249406775132182/722920371485147186/e5ddd7403d0bf5463b834a6ee725f084.png)
