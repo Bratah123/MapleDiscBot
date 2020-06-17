@@ -86,3 +86,5 @@ For the !givedp command similarly you want to change the dpoint column according
 2. do the same for realcash. change it to rows[0].dpoints or whatever your column name is in SQL.
 
 ![givedp](https://cdn.discordapp.com/attachments/631249406775132182/722920371485147186/e5ddd7403d0bf5463b834a6ee725f084.png)
+
+Extra: You can read through the source and change it to your liking, in info.js I removed the setURL() but you can easily reenable features to your liking.
