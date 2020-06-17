@@ -88,3 +88,9 @@ For the !givedp command similarly you want to change the dpoint column according
 ![givedp](https://cdn.discordapp.com/attachments/631249406775132182/722920371485147186/e5ddd7403d0bf5463b834a6ee725f084.png)
 
 Extra: You can read through the source and change it to your liking, in info.js I removed the setURL() but you can easily reenable features to your liking.
+
+## Gallery <h2>
+
+![rankings](https://cdn.discordapp.com/attachments/631249406775132182/722926569256910938/bd55ac078210298f038da307d43e6b96.png)
+
+![online](https://media.discordapp.net/attachments/631249406775132182/722926971578875905/ea6162e280dfe0fa1c410f6d71866764.png)
