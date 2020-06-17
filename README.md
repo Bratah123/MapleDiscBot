@@ -31,15 +31,25 @@ Make sure to use Visual Studio Code for any debugging or editing.
   
   ![config file](https://cdn.discordapp.com/attachments/631249406775132182/722903468884623360/9374ffcdfbe7479e389cbbe079fb83d5.png)
 2. YOU MUST FILL OUT ALL ASPECTS FOR IT TO WORK
+
 3.Starting with token, you want to put your bot token you just made into token area
+
 4.addRole: addRole is defaulted to false, if you put it to true make sure to put the role ID you want players who joins ur discord server to get.
+
 5.serverName: just put ur server name I.E.(whateverMS, nottakenMS)
+
 6.serverWebsite: insert your website URL.
+
 7.serverMascot : URL of a picture, you kinda need to fill this one out otherwise you will get errors
+
 7.5: serverColor : the hexcode to a color that matches your server artwork.
+
 8. databaseName : your database name.
+
 9. databasePass : Password of your database I defaulted it to nothing, but that is where you wanna put your SQL password.
+
 10. databaseUser: defaulted to root, change if otherwise.
+
 11. databaseHost : again defaulted to localhost.
 
 FINISH: If you matched all criterias(you probably won't), run the bot with start.bat and boom you should have a working bot (it will restart the bot if it crashes).
