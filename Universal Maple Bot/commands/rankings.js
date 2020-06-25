@@ -37,16 +37,16 @@ var db_config = { // settings for the database to connect
 module.exports.run = async (bot, message , args) => {
     handleDisconnect();
     var rankingType = args[0]; // the ranking type the player provided
-    var rankingArr = ["meso", "fame"]; // if you want to add more you add "rb" into this array
+    var rankingArr = ["meso", "fame", "level"]; // if you want to add more you add "rb" into this array
     var d = new Date, dformat = [d.getMonth()+1,d.getDate(),d.getFullYear()];
     if(args.length <= 0) // check if they provided the ranking type
     {
-        message.channel.send("Please provide a ranking type, !rankings <meso|fame>")
+        message.channel.send("Please provide a ranking type, !rankings <meso|fame|level>")
         return;
     }
     else
     {
-        if(rankingType.toLowerCase() == rankingArr[0] || rankingType.toLowerCase() == rankingArr[1]) 
+        if(rankingType.toLowerCase() == rankingArr[0] || rankingType.toLowerCase() == rankingArr[1] || rankingType.toLowerCase() == rankingArr[2]) 
         // this if statement is a meme, but add to it when you add another type into the ranking array
         {
             var columnType;
@@ -61,7 +61,10 @@ module.exports.run = async (bot, message , args) => {
                     break;
                 case "fame":
                     columnType = "fame";
-                    break
+                    break;
+                case "level":
+                    columnType = "level";
+                    break;
                 default :
                     console.log("[ERROR] arguments given by player were incorrect.");
                     break;
@@ -133,6 +136,19 @@ module.exports.run = async (bot, message , args) => {
                             rankType4Name = (rows.length < 4) ? "NONE" : rows[3].name;
                             rankType5Name = (rows.length < 5) ? "NONE" : rows[4].name;
                             break;
+                        case "level":
+                            rankType1 = rows[0].level;
+                            rankType2 = (rows.length < 2) ? "NONE" : rows[1].level;
+                            rankType3 = (rows.length < 3) ? "NONE" : rows[2].level;
+                            rankType4 = (rows.length < 4) ? "NONE" : rows[3].level;
+                            rankType5 = (rows.length < 5) ? "NONE" : rows[4].level;
+
+                            rankType1Name = rows[0].name;
+                            rankType2Name = (rows.length < 2) ? "NONE" : rows[1].name;
+                            rankType3Name = (rows.length < 3) ? "NONE" : rows[2].name;
+                            rankType4Name = (rows.length < 4) ? "NONE" : rows[3].name;
+                            rankType5Name = (rows.length < 5) ? "NONE" : rows[4].name;
+                            break;
                         default:
                             console.log("[ERROR] columnType is undefined.");
                             break;
@@ -147,7 +163,7 @@ module.exports.run = async (bot, message , args) => {
                     .addField("3rd",rankType3Name + ": " + numberWithCommas(rankType3) + ` ${rankingType.toUpperCase()}(s)`)
                     .addField("4th",rankType4Name + ": " + numberWithCommas(rankType4) + ` ${rankingType.toUpperCase()}(s)`)
                     .addField("5th",rankType5Name + ": " + numberWithCommas(rankType5) + ` ${rankingType.toUpperCase()}(s)`)
-                    .setColor(config.serverColor)
+                    .setColor('#ADD8E6')
                     .setFooter(`${config.serverName} - ` + dformat[0] + "/" + dformat[1] + "/" + dformat[2]);
 
                     message.channel.send(embed);
@@ -157,7 +173,7 @@ module.exports.run = async (bot, message , args) => {
         }
         else // if they provided an incorrect ranking type send them this message
         {
-            message.channel.send('"' + rankingType + '" is not a valid ranking type, !rankings <fame|meso>');
+            message.channel.send('"' + rankingType + '" is not a valid ranking type, !rankings <fame|meso|level>');
             return;
         }
     }
