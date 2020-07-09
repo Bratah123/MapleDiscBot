@@ -163,7 +163,7 @@ module.exports.run = async (bot, message , args) => {
                     .addField("3rd",rankType3Name + ": " + numberWithCommas(rankType3) + ` ${rankingType.toUpperCase()}(s)`)
                     .addField("4th",rankType4Name + ": " + numberWithCommas(rankType4) + ` ${rankingType.toUpperCase()}(s)`)
                     .addField("5th",rankType5Name + ": " + numberWithCommas(rankType5) + ` ${rankingType.toUpperCase()}(s)`)
-                    .setColor('#ADD8E6')
+                    .setColor(config.serverColor)
                     .setFooter(`${config.serverName} - ` + dformat[0] + "/" + dformat[1] + "/" + dformat[2]);
 
                     message.channel.send(embed);
