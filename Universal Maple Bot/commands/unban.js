@@ -71,7 +71,7 @@ module.exports.run = async (bot, message, args) => {
                             if(err) throw err;
                             const embed = new RichEmbed().setTitle("Unbanned")
                             .setThumbnail(config.serverMascot)
-                            .setDescription("Successfully gave unbanned ACCOUNT: " + account[0].name + ".")
+                            .setDescription("Successfully unbanned ACCOUNT: " + account[0].name + ".")
                             .setColor(config.serverColor)
                             .setFooter(`${config.serverName} - ` + dformat[0] + "/" + dformat[1] + "/" + dformat[2]);
                             console.log("The account " + username + ", has been unbanned.");
