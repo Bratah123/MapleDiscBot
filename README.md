@@ -78,7 +78,7 @@ Make sure to fill out the `serverMascot` section of `config.json`
 
 ![dp](https://media.discordapp.net/attachments/631249406775132182/722919637783674990/d4ac0dbac50cf15a3ed1a29c298362e3.png)
 
-For the `!givedp` command similarly you want to change the `dpoint` column accordingly
+Similarly for the `!givedp` command, you'd want to change the `dpoint` column accordingly
 1. In the `updateDp` Variable change `SET "dpoints"` to whatever your donation points is called
 2. Do the same for realcash. Change it to `rows[0].dpoints` or whatever your column name is in SQL.
 
