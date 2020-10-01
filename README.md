@@ -37,7 +37,7 @@ Make sure to use Visual Studio Code for any debugging or editing.
 
 4. `addRole` : `addRole` defaults to `false`. If you set it to `true`, make sure to fill out the `role ID` that you want automatically assigned for newcomers to your Discord server.
 
-5. `serverName` : Just put ur server name I.E.(whateverMS, nottakenMS)
+5. `serverName` : Insert your server name (e.g. whateverMS, nottakenMS, SpiritMS, etc.)
 
 6. `serverWebsite` : Insert your website URL.
 
