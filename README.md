@@ -1,6 +1,6 @@
 # MapleDiscBot
 ### "Universal" plug n play maplestory discord bot for your private server.
-If you have any questions or bug reports, my discord is **not** Brandon#4444
+If you have any questions or bug reports, my Discord ID is `Not Brandon#4444`
 
 I tried to make this maplestory discord bot as plug n play as possible but you are still going to need to some work.
 Note, I don't claim to be a good programmer but I think this could help people who are new at creating a Discord bot and I think its time I released something for them :P
