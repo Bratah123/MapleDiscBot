@@ -74,7 +74,7 @@ Make sure to fill out the `serverMascot` section of `config.json`
 
 1. Open the files in commands folder, and read the comments
 
-2. You want `account[0].dpoint` to match what your column name is in your SQL. I.E. (`account[0].dpoints`, `account[0].dp`, `account[0].donationPoints`)
+2. You want `account[0].dpoint` to match the column name in your SQL. (e.g. `account[0].dpoints`, `account[0].dp`, or `account[0].donationPoints`)
 
 ![dp](https://media.discordapp.net/attachments/631249406775132182/722919637783674990/d4ac0dbac50cf15a3ed1a29c298362e3.png)
 
