@@ -35,7 +35,7 @@ Make sure to use Visual Studio Code for any debugging or editing.
 
 3. Starting with token, you want to put your bot token you just made into token area
 
-4. `addRole` : `addRole` is defaulted to `false`, if you put it to true make sure to put the role ID you want players who joins your discord server to get.
+4. `addRole` : `addRole` defaults to `false`. If you set it to `true`, make sure to fill out the `role ID` that you want automatically assigned for newcomers to your Discord server.
 
 5. `serverName` : Just put ur server name I.E.(whateverMS, nottakenMS)
 
