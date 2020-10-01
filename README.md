@@ -20,7 +20,7 @@ Make sure to use Visual Studio Code for any debugging or editing.
 
 ![Discord Bot Option](https://cdn.discordapp.com/attachments/631249406775132182/722902298896105544/454736b9a5d5ce7e45dc2aedad8b8d34.png)
 
-5. Top right click add bot
+5. At the right under `Build-A-Bot`, click on the `Add Bot` button
 
 6. Now you can see the token ID hidden, click copy and you have your token ID
 
