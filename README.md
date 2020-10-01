@@ -22,7 +22,7 @@ Make sure to use Visual Studio Code for any debugging or editing.
 
 5. At the right under `Build-A-Bot`, click on the `Add Bot` button
 
-6. Now you can see the token ID hidden, click copy and you have your token ID
+6. Under `Token`, click on `Click to Reveal Token`. You can now see the hidden token ID; you may click on the `Copy` button to have it added to your clipboard
 
 ![Token](https://cdn.discordapp.com/attachments/631249406775132182/722902431893028905/e6a8b8f3fae0e3f6650d7e5e6ac148b8.png)
 
