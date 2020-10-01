@@ -47,7 +47,7 @@ Make sure to use Visual Studio Code for any debugging or editing.
 
 8. `databaseName` : Your database name.
 
-9. `databasePass` : Password of your database I defaulted it to nothing, but that is where you wanna put your SQL password.
+9. `databasePass` : Password of your database. It is empty by default, but that is where you would set your SQL password.
 
 10. `databaseUser` : Defaulted to root, change if otherwise.
 
