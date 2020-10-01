@@ -8,7 +8,7 @@ Note, I don't claim to be a good programmer but I think this could help people w
 Make sure to use Visual Studio Code for any debugging or editing.
 
 ## 1. How to get a discord bot token? <h2>
-1. Visit the [developer site](https://discord.com/developers/applications)
+1. Visit the [Discord Developer Portal](https://discord.com/developers/applications)
   
 2. At the top right corner of the page, click on the `New Application` button, and fill in the appropriate details
   
