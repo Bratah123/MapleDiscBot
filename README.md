@@ -5,6 +5,12 @@ If you have any questions or bug reports, my Discord ID is `Not Brandon#4444`
 I tried to make this maplestory discord bot as plug n play as possible but you are still going to need to some work.
 Note, I don't claim to be a good programmer but I think this could help people who are new at creating a Discord bot and I think its time I released something for them :P
 
+## Honorable Mentions (Servers who have used this base source) <h2>
+  TomatoMS
+  ElationMS
+  SpiritMS
+  AzureMS
+
 Make sure to use Visual Studio Code for any debugging or editing.
 
 ## 1. How to get a discord bot token? <h2>
