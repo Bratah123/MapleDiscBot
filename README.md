@@ -6,16 +6,6 @@ I tried to make this maplestory discord bot as plug n play as possible but you a
 
 Make sure to use Visual Studio Code for any debugging or editing.
 
-## Honorable Mentions (Servers who have used this base source) <h2>
-  TomatoMS
-  
-  ElationMS
-  
-  SpiritMS
-  
-  AzureMS
-  
-  
 ## 1. How to get a discord bot token? <h2>
 1. Visit the [Discord Developer Portal](https://discord.com/developers/applications)
   
