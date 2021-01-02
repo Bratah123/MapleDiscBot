@@ -1,4 +1,5 @@
 # MapleDiscBot
+DEPRECATED PROJECT, THIS BOT WILL NO LONGER WORK DUE TO API CHANGES!
 ### "Universal" plug and play MapleStory Discord bot for your private server.
 If you have any questions or bug reports, my Discord ID is `Not Brandon#4444`
 
